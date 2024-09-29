@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Vinyl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Record Vinyl</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="link">О нас</a></li>
+                    <li><a href="#services" class="link">Услуги</a></li>
+                    <li><a href="#contacts" class="link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>
+                Магазин винила рад приветствовать вас в мире музыки на физических носителях! Мы специализируемся на продаже виниловых пластинок и аксессуаров для коллекционеров и любителей качественного звучания. Наша команда состоит из энтузиастов, которые ценят каждую мелочь и стремятся делиться своей любовью к музыке с другими.
+            </p>
+            <p>
+                Когда дело касается выбора товара, мы уделяем особое внимание качеству и аутентичности продукции. В нашем ассортименте представлены редкие и коллекционные издания, а также новинки музыкальной индустрии. Кроме того, мы предлагаем широкий спектр аксессуаров для хранения и ухода за вашими пластинками, включая чистящие средства, конверты и полки.
+            </p>
+            <p>
+                Мы понимаем, насколько важна музыка в жизни каждого человека, поэтому стараемся предоставлять лучший сервис и консультации нашим клиентам. Наши сотрудники всегда готовы помочь вам с выбором, ответить на все ваши вопросы и поделиться своими знаниями и опытом.
+            </p>
+            <img src="image.jpg" alt="О нас">
+        </div>
+    </section>
+
+    <section class="product">
+        <h2 class="product-category">Популярное</h2>
+        <button class="pre-btn"><img src="img/вперед.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/вперед.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/queen.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">QUEEN</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/lada.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">LADA DANCE</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/linkin_park.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">LINKIN PARK</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/modern.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">MODERN TOLKING</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/splin.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">SPLIN</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/smoke.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">SMOKE</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/oliver.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">OLIVER</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/пикник.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">ПИКНИК</button>
+                </div>
+            </div>
+        </div>                             
+    </section>
+    
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Услуги</h2>
+            <ul>
+                <li>
+                    <b>Персональные рекомендации:</b> Наши эксперты помогут подобрать идеальные пластинки и аксессуары именно для вас, исходя из ваших музыкальных предпочтений.
+                </li>
+                <li>
+                    <b>Редкие издания:</b> У нас вы найдете редкие и эксклюзивные экземпляры виниловых пластинок, которые сложно найти в обычных магазинах.
+                </li>
+                <li>
+                    <b>Помощь в выборе проигрывателя:</b> Мы поможем вам выбрать лучший виниловый проигрыватель, который подойдет вашим потребностям и бюджету.
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <address>
+                <strong>Адрес:</strong> Москва, ул. Центральная, д. 1<br>
+                <strong>Телефон:</strong> +7 (999) 999-99-99<br>
+                <strong>Email:</strong> vinilshop@mail.ru<br>
+            </address>
+            <br>
+            <form action="" method="post">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Ваше имя">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Ваш email">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" cols="20" rows="8" placeholder="Ваше сообщение"></textarea><br>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; 2024 Магазин винила. Все права защищены.
+        </div>
+    </footer>
+</body>
+</html>
